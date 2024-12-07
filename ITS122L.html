@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="StreamFlix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <img src="user.jpg" alt="User Profile">
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button id="watch-now-btn">Watch Now</button>
+        </section>
+        <section class="content">
+            <h2>Popular on StreamFlix</h2>
+            
+<div class="movie-grid">
+    <div class="movie-item" data-trailer="Movie1.mp4">
+        <img src="poster1.jpg" alt="The Substance">
+    </div>
+    <div class="movie-item" data-trailer="Movie2.mp4">
+        <img src="poster2.jpg" alt="The Wild Robot">
+    </div>
+    <div class="movie-item" data-trailer="Movie3.mp4">
+        <img src="poster3.jpg" alt="Inside Out 2">
+    </div>
+    <div class="movie-item" data-trailer="Movie4.mp4">
+        <img src="poster4.jpg" alt="Moana 2">
+    </div>
+    <div class="movie-item" data-trailer="Movie5.mp4">
+        <img src="poster5.jpg" alt="Despicable Me 4">
+    </div>
+    <div class="movie-item" data-trailer="Movie6.mp4">
+        <img src="poster6.jpg" alt="Deadpool & Wolverine">
+    </div>
+    <div class="movie-item" data-trailer="Movie7.mp4">
+        <img src="poster7.jpg" alt="Moana 2">
+    </div>
+    <div class="movie-item" data-trailer="Movie8.mp4">
+        <img src="poster8.jpg" alt="A Quiet Place Day One">
+    </div>
+    <div class="movie-item" data-trailer="Movie9.mp4">
+        <img src="poster9.jpg" alt="Alita: Battle Angel">
+    </div>
+    <div class="movie-item" data-trailer="Movie10.mp4">
+        <img src="poster10.jpg" alt="Transformers One">
+    </div>
+    <div class="movie-item" data-trailer="Movie11.mp4">
+        <img src="poster11.jpg" alt="Saltburn">
+    </div>
+    <div class="movie-item" data-trailer="Movie12.mp4">
+        <img src="poster12.jpg" alt="Interstellar">
+    </div>
+
+<!-- Update modal video element -->
+<div id="trailer-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video id="trailer-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+    <script src="document.js"></script>
+</body>
+</html>
